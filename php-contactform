@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am new Title</title>
+</head>
+<img src="contaxt.jpg" height="80"/>
+<h1>Contact Me</h1>
+<body>   
+<form action="processform.php" method="POST">
+    <p>
+        <label for="first_name">First Name</label><br/>
+        <input type="text" name="first_name" placeholder="Enter your First name" />
+    </p>
+    
+    <p>
+        <label for="last_name">Last Name</label><br/>
+        <input type="text" name="last_name" placeholder="Enter your Last name" />
+    </p>
+    
+    <p>
+        <label for="gender">Gender</label><br />
+        <input type="radio" name="gender" /> Male   
+                    <input type="radio" name="gender" /> Female
+    </p>
+
+    <p>
+        <label for="email">Email</label><br/>
+        <input type="text" name="email" placeholder="Enter your Email" required />
+    </p>
+        
+    <p>
+        <label for="department">Department</label></br>
+        
+        <select name="department">
+            <option>HR</option>
+            <option>Marketing</option>
+            <option>Tech</option>
+            <option>Management</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="email">Your Message</label><br/>
+        <textarea name="Message"></textarea>
+    </p>
+    <p>
+		
+	    <input type="checkbox" name="terms"  required /> By Checking this box you agree to our terms and conditions
+                  
+      </p> 
+
+        <button type="submit">Send Message</button>
+    </form>
+
+</body>
+</html>
