@@ -1,0 +1,5 @@
+import math
+radius = int(input(('Enter radius ')))
+pi = math.pi
+Area = (2 * pi * (radius^2))
+print ("The Area of the circle is "+ str(Area))
